@@ -2,7 +2,7 @@
 Neuro Utils
 ===========
 
-.. image:: ../docs/_static/neuro_utils_logo.png
+.. image:: ./docs/_static/neuro_utils_logo.png
     :width: 400
 
 .. image:: https://img.shields.io/pypi/v/neuro_utils.svg
