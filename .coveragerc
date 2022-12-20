@@ -6,7 +6,7 @@ source =
 [run]
 branch = true
 source =
-    bids_derivatives
+    src
     tests
 parallel = true
 
