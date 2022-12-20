@@ -13,4 +13,3 @@ skip-string-normalization = false
 skip = [".gitignore"]
 extend_skip = [".rst",".*"]
 skip_glob=["docs/*","venv/*",".tox/*"]
-extend_skip_glob=[".*/*"]
