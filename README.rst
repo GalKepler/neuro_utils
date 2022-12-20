@@ -51,17 +51,17 @@ Neuro Utils
     :alt: GitHub Actions Build Status
     :target: https://github.com/GalKepler/neuro_utils/actions
 
-.. |requires| image:: https://requires.io/github/GalBenZvi/bids-derivatives/requirements.svg?branch=main
+.. |requires| image:: https://requires.io/github/GalKepler/neuro_utils/requirements.svg?branch=main
     :alt: Requirements Status
-    :target: https://requires.io/github/GalBenZvi/bids-derivatives/requirements/?branch=main
+    :target: https://requires.io/github/GalKepler/neuro_utils/requirements/?branch=main
 
-.. |codecov| image:: https://codecov.io/gh/GalBenZvi/bids-derivatives/branch/main/graphs/badge.svg?branch=main
+.. |codecov| image:: https://codecov.io/gh/GalBenZvi/neuro_utils/branch/main/graphs/badge.svg?branch=main
     :alt: Coverage Status
-    :target: https://codecov.io/github/GalBenZvi/bids-derivatives
+    :target: https://codecov.io/github/GalKepler/neuro_utils
 
-.. |version| image:: https://badge.fury.io/py/bids-derivatives.svg
+.. |version| image:: https://badge.fury.io/py/neuro_utils.svg
     :alt: PyPI Package latest release
-    :target: https://pypi.org/project/bids-derivatives
+    :target: https://pypi.org/project/neuro_utils
 
 
 
