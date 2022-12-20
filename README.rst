@@ -5,6 +5,7 @@ Neuro Utils
 .. image:: ./docs/_static/neuro_utils_logo.png
     :width: 200
     :align: center
+    :target: https://github.com/GalKepler/neuro_utils/blob/main/docs/_static/neuro_utils_logo.png
 
 .. start-badges
 
@@ -21,7 +22,6 @@ Neuro Utils
         | |codecov| |code-quality|
     * - Packaging
       - | |version|
-        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/neuro-utils/badge/?style=flat
     :target: https://neuro-utils.readthedocs.io
