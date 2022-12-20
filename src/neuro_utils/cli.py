@@ -1,5 +1,6 @@
 """Console script for neuro_utils."""
 import sys
+
 import click
 
 

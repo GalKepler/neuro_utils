@@ -20,3 +20,12 @@ include LICENSE
 include README.rst
 
 global-exclude *.py[cod] __pycache__/* *.so *.dylib
+
+HISTORY.rst
+Makefile
+codecov
+requirements_dev.txt
+include *.rst
+include *.txt
+include Makefile
+include codecov

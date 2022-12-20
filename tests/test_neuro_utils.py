@@ -3,11 +3,9 @@
 """Tests for `neuro_utils` package."""
 
 import pytest
-
 from click.testing import CliRunner
 
-from neuro_utils import neuro_utils
-from neuro_utils import cli
+from neuro_utils import cli, neuro_utils
 
 
 @pytest.fixture
