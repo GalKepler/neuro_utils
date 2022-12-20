@@ -18,7 +18,7 @@ Neuro Utils
       - | |made-with-python| |code-style| |imports|
         | |pre-commit|
     * - Tests
-      - | |github-actions| |requires|
+      - | |github-actions|
         | |codecov| |code-quality|
     * - Packaging
       - | |version|
@@ -50,10 +50,6 @@ Neuro Utils
 .. |github-actions| image:: https://github.com/GalKepler/neuro_utils/actions/workflows/github-workflow.yml/badge.svg
     :alt: GitHub Actions Build Status
     :target: https://github.com/GalKepler/neuro_utils/actions
-
-.. |requires| image:: https://requires.io/github/GalKepler/neuro_utils/requirements.svg?branch=main
-    :alt: Requirements Status
-    :target: https://requires.io/github/GalKepler/neuro_utils/requirements/?branch=main
 
 .. |codecov| image:: https://codecov.io/gh/GalKepler/neuro_utils/branch/main/graph/badge.svg?token=NAVXSZMD5L
     :alt: Coverage Status
