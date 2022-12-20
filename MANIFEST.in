@@ -9,3 +9,18 @@ recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
 
 recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
+include *.txt
+include .coveragerc
+include Makefile
+include codecov
+include tox.ini
+recursive-include ci *.py
+recursive-include ci *.txt
+recursive-include ci *.yml
+Makefile
+ci/bootstrap.py
+ci/requirements.txt
+ci/templates/.github/workflows/github-actions.yml
+codecov
+requirements_dev.txt
+tox.ini
