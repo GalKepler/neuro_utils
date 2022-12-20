@@ -55,9 +55,9 @@ Neuro Utils
     :alt: Requirements Status
     :target: https://requires.io/github/GalKepler/neuro_utils/requirements/?branch=main
 
-.. |codecov| image:: https://codecov.io/gh/GalBenZvi/neuro_utils/branch/main/graphs/badge.svg?branch=main
+.. |codecov| image:: https://codecov.io/gh/GalKepler/neuro_utils/branch/main/graph/badge.svg?token=NAVXSZMD5L
     :alt: Coverage Status
-    :target: https://codecov.io/github/GalKepler/neuro_utils
+    :target: https://codecov.io/gh/GalKepler/neuro_utils
 
 .. |version| image:: https://badge.fury.io/py/neuro_utils.svg
     :alt: PyPI Package latest release
