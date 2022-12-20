@@ -15,7 +15,7 @@ class Scan:
         path_to_nifti_file : str
             Path to the NIfTI file of the scan.
         """
-        self.nifti_file = Path(path_to_nifti_file)
+        self.nifti_path = Path(path_to_nifti_file)
         if auto_parse:
             self.properties = self.get_properties_from_json()
         else:
@@ -52,7 +52,7 @@ class Scan:
         bool
             True if the NIfTI file is gunzipped, False otherwise.
         """
-        return "nii.gz" in self.nifti_file.name
+        return "nii.gz" in self.nifti_path.name
 
     @property
     def json_file(self):
@@ -64,7 +64,7 @@ class Scan:
         Path
             The path to the JSON file.
         """
-        return self.nifti_file.parent / self.nifti_file.name.replace(
+        return self.nifti_path.parent / self.nifti_path.name.replace(
             self.extension, "json"
         )
 
