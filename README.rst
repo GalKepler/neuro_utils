@@ -43,8 +43,8 @@ Neuro Utils
     :target: https://pre-commit.com/
     :alt: Pre-commit
 
-.. |code-quality| image:: https://app.codacy.com/project/badge/Grade/660ff8ebe55d4ecbaa043bc5216a1d30
-    :target: https://www.codacy.com/gh/GalKepler/neuro_utils/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GalBenZvi/bids-derivatives&amp;utm_campaign=Badge_Grade
+.. |code-quality| image:: https://app.codacy.com/project/badge/Grade/b31cb38534da448b9833b0ac2e1f4327
+    :target: https://www.codacy.com/gh/GalKepler/neuro_utils/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GalKepler/neuro_utils&amp;utm_campaign=Badge_Grade
     :alt: Code quality
 
 .. |github-actions| image:: https://github.com/GalBenZvi/bids-derivatives/actions/workflows/github-workflow.yml/badge.svg
