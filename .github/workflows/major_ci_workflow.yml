@@ -1,12 +1,14 @@
 name: CI (major)
 on:
-
-on:
   push:
     branches:
       - main
       - 'releases/**'
-  pull_request
+  push:
+    branches:
+      - main
+      - 'releases/**'
+
 jobs:
     test:
         name: ${{ matrix.name }}
