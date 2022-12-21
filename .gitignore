@@ -104,3 +104,7 @@ ENV/
 # IDE settings
 .vscode/
 .idea/
+
+# Jupiter Notebook
+.ipynb_checkpoints/
+*.ipynb

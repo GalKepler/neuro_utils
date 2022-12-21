@@ -29,3 +29,4 @@ include *.rst
 include *.txt
 include Makefile
 include codecov
+include *.yml

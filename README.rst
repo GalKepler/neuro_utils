@@ -18,8 +18,8 @@ Neuro Utils
       - | |made-with-python| |code-style| |imports|
         | |pre-commit|
     * - Tests
-      - | |github-actions|
-        | |codecov| |code-quality|
+      - | |github-actions| |codecov|
+        | |code-quality|
     * - Packaging
       - | |version|
 

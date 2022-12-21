@@ -1,6 +1,6 @@
-* Neuro Utils version:
-* Python version:
-* Operating System:
+-   Neuro Utils version:
+-   Python version:
+-   Operating System:
 
 ### Description
 
