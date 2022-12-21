@@ -2,7 +2,7 @@
 Neuro Utils
 ===========
 
-.. image:: ./docs/_static/neuro_utils_logo.png
+.. image:: https://github.com/GalKepler/neuro_utils/blob/main/docs/_static/neuro_utils_logo.png?raw=true
     :width: 200
     :align: center
     :target: https://github.com/GalKepler/neuro_utils/blob/main/docs/_static/neuro_utils_logo.png
