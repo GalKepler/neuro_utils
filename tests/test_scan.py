@@ -61,3 +61,17 @@ class TestScan(TestCase):
         scan = Scan(path_to_nifti_file=self.NIFTI_PATH, auto_parse=False)
         with self.assertRaises(FileNotFoundError):
             scan.get_properties_from_json(path_to_json_file="missing.json")
+
+    def test_missing_json_returns_empty_dict(self):
+        """
+        Test that the scan properties are retrieved without auto scan.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH, auto_parse=False)
+        assert (
+            len(
+                scan.get_properties_from_json(
+                    path_to_json_file="missing.json", raise_error=False
+                )
+            )
+            == 0
+        )
