@@ -32,3 +32,17 @@ class TestScan(TestCase):
         """
         scan = Scan(path_to_nifti_file=self.NIFTI_PATH)
         assert scan.properties
+
+    def test_scan_properties_from_json(self):
+        """
+        Test that the scan properties are retrieved from the JSON file.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH)
+        assert len(scan.properties) > 0
+
+    def test_scan_extension(self):
+        """
+        Test that the scan extention is retrieved.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH)
+        assert scan.extension == "nii.gz"

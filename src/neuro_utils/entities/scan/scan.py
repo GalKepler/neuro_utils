@@ -22,7 +22,9 @@ class Scan:
             self.properties = {}
 
     def get_properties_from_json(
-        self, path_to_json_file: Union[str, Path] = None
+        self,
+        path_to_json_file: Union[str, Path] = None,
+        raise_error: bool = True,
     ) -> dict:
         """
         Get the properties of the scan from the JSON file.
@@ -31,13 +33,24 @@ class Scan:
         ----------
         path_to_json_file : Union[str, Path], optional
             Path to the JSON file, by default None
-
+        raise_error : bool, optional
+            Whether to raise an error if the JSON file is not found,
+            by default True
         Returns
         -------
         dict
             The properties of the scan.
         """
-        json_file = path_to_json_file or self.json_file
+        json_file = (
+            path_to_json_file or self.json_file
+        )  # get the path to the json file
+        if not json_file.exists():  # if the json file does not exist
+            if raise_error:  # if we want to raise an error
+                raise FileNotFoundError(
+                    f"JSON file {json_file} not found."
+                )  # raise an error
+            else:
+                return {}  # return an empty dictionary
         with open(str(json_file), "r") as f:
             properties = json.load(f)
         return properties
