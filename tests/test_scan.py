@@ -75,3 +75,11 @@ class TestScan(TestCase):
             )
             == 0
         )
+
+    def test_parse_json(self):
+        """
+        Test that the scan properties are retrieved without auto scan.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH, auto_parse=False)
+        scan.get_properties_from_json(return_properties=False)
+        assert len(scan.properties) > 0

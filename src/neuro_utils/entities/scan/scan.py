@@ -25,6 +25,7 @@ class Scan:
         self,
         path_to_json_file: Union[str, Path] = None,
         raise_error: bool = True,
+        return_properties: bool = True,
     ) -> dict:
         """
         Get the properties of the scan from the JSON file.
@@ -53,7 +54,9 @@ class Scan:
                 return {}  # return an empty dictionary
         with open(str(json_file), "r") as f:
             properties = json.load(f)
-        return properties
+        self.properties = properties
+        if return_properties:
+            return properties
 
     @property
     def is_gunzipped(self) -> bool:
