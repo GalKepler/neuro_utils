@@ -44,7 +44,7 @@ class Scan:
         json_file = (
             path_to_json_file or self.json_file
         )  # get the path to the json file
-        if not json_file.exists():  # if the json file does not exist
+        if not Path(json_file).exists():  # if the json file does not exist
             if raise_error:  # if we want to raise an error
                 raise FileNotFoundError(
                     f"JSON file {json_file} not found."

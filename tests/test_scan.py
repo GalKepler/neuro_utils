@@ -46,3 +46,18 @@ class TestScan(TestCase):
         """
         scan = Scan(path_to_nifti_file=self.NIFTI_PATH)
         assert scan.extension == "nii.gz"
+
+    def test_properties_without_auto_parse(self):
+        """
+        Test that the scan properties are retrieved without auto scan.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH, auto_parse=False)
+        assert len(scan.properties) == 0
+
+    def test_missing_json_raises_error(self):
+        """
+        Test that the scan properties are retrieved without auto scan.
+        """
+        scan = Scan(path_to_nifti_file=self.NIFTI_PATH, auto_parse=False)
+        with self.assertRaises(FileNotFoundError):
+            scan.get_properties_from_json(path_to_json_file="missing.json")
