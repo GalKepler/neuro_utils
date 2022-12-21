@@ -1,13 +1,13 @@
 name: CI (major)
 on:
-  push:
-    branches:
-      - main
-      - 'releases/**'
-  push:
-    branches:
-      - main
-      - 'releases/**'
+    push:
+        branches:
+            - main
+            - "releases/**"
+    pull_request:
+        branches:
+            - main
+            - "releases/**"
 
 jobs:
     test:
