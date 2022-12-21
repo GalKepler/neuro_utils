@@ -47,7 +47,7 @@ Neuro Utils
     :target: https://www.codacy.com/gh/GalKepler/neuro_utils/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GalKepler/neuro_utils&amp;utm_campaign=Badge_Grade
     :alt: Code quality
 
-.. |github-actions| image:: https://github.com/GalKepler/neuro_utils/actions/workflows/github-workflow.yml/badge.svg
+.. |github-actions| image:: https://github.com/GalKepler/neuro_utils/actions/workflows/major_ci_workflow.yml/badge.svg
     :alt: GitHub Actions Build Status
     :target: https://github.com/GalKepler/neuro_utils/actions
 
